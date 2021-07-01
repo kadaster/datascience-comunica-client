@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
-    "@comunica/web-client-generator": "^1.2.0"
+    "@comunica/web-client-generator": "^1.2.1"
   },
   "repository": {
     "type": "git",
