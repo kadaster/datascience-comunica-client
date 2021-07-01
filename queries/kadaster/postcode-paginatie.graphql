@@ -1,4 +1,4 @@
-# Postcode paginatie
+# Postcodes
 # Datasource: sparql@https://api.labs.kadaster.nl/datasets/kadaster/Kadaster-Registratieve-Linked-Data/services/registraties/sparql
 query @single(scope: all) {
   postcode(first:10 offset:10)

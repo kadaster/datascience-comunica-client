@@ -4,39 +4,27 @@
     "graphql": true
   },
   "branding": {
-    "title": "Query the Web of Linked Data",
-    "title_href": "https://comunica.dev/",
-    "subtitle": "Live in your browser, powered by Comunica",
+    "title": "Query het Kadaster",
+    "title_href": "https://www.kadaster.nl/",
+    "subtitle": "Powered by Comunica",
     "subtitle_href": "https://comunica.dev/"
   },
   "datasources": [
+    {
+      "name": "Kadaster-NL",
+      "url": "sparql@https://api.labs.kadaster.nl/datasets/kadaster/Kadaster-Registratieve-Linked-Data/services/registraties/sparql"
+    },
+    {
+      "name": "Kadaster-NL-KG",
+      "url": "sparql@https://api.labs.kadaster.nl/datasets/kadaster/kg/services/default/sparql"
+    },
     {
       "name": "DBpedia 2016-04",
       "url": "//fragments.dbpedia.org/2016-04/en"
     },
     {
-      "name": "Ruben Verborgh's Profile",
-      "url": "https://ruben.verborgh.org/profile/"
-    },
-    {
-      "name": "Ruben Taelman's Profile",
-      "url": "https://www.rubensworks.net/"
-    },
-    {
       "name": "DBpedia SPARQL",
       "url": "https://dbpedia.org/sparql"
-    },
-    {
-      "name": "DBpedia 2015-10",
-      "url": "//fragments.dbpedia.org/2015-10/en"
-    },
-    {
-      "name": "DBpedia 2015-04",
-      "url": "//fragments.dbpedia.org/2015/en"
-    },
-    {
-      "name": "DBpedia 2014",
-      "url": "//fragments.dbpedia.org/2014/en"
     },
     {
       "name": "Ghent University Academic Bibliography",
@@ -55,24 +43,8 @@
       "url": "//data.linkeddatafragments.org/harvard"
     },
     {
-      "name": "Between Our Worlds 2018-06",
-      "url": "https://data.betweenourworlds.org/2018-06"
-    },
-    {
       "name": "Wikidata",
       "url": "https://query.wikidata.org/bigdata/ldf"
-    },
-    {
-      "name": "SNCB",
-      "url": "https://graph.irail.be/sncb/connections"
-    },
-    {
-      "name": "Kadaster-NL",
-      "url": "sparql@https://api.labs.kadaster.nl/datasets/kadaster/Kadaster-Registratieve-Linked-Data/services/registraties/sparql"
-    },
-    {
-      "name": "Kadaster-NL-KG",
-      "url": "sparql@https://api.labs.kadaster.nl/datasets/kadaster/kg/services/default/sparql"
     }
   ],
   "prefixes": {
@@ -87,11 +59,7 @@
     "dbpedia-owl": "http://dbpedia.org/ontology/",
     "dbpprop":     "http://dbpedia.org/property/",
     "wdprop":      "http://www.wikidata.org/prop/direct/",
-    "ruben":       "https://ruben.verborgh.org/profile/#",
-    "rubent":      "https://www.rubensworks.net/#",
-    "schema":      "http://schema.org/",
-    "bow":         "https://betweenourworlds.org/ontology/",
-    "lc":          "http://semweb.mmlab.be/ns/linkedconnections#"
+    "schema":      "http://schema.org/"
   },
   "queries": "(Will be generated from the 'queries' folder by running the './queries-to-json' script.)"
 }

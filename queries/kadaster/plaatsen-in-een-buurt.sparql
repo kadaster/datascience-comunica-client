@@ -1,4 +1,4 @@
-# Waar is 'iets' in de buurt
+# POIs in Rotterdam
 # Datasource: sparql@https://api.labs.kadaster.nl/datasets/kadaster/kg/services/default/sparql
 PREFIX brt: <https://brt.basisregistraties.overheid.nl/brt/def/>
 PREFIX schema: <https://schema.org/>

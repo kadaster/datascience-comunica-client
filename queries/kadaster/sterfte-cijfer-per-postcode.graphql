@@ -1,4 +1,4 @@
-# Sterfte cijfer per postcode
+# Sterfte cijfer voor postcode 9718
 # Datasource: sparql@https://api.labs.kadaster.nl/datasets/kadaster/Kadaster-Registratieve-Linked-Data/services/registraties/sparql
 query {
   postcode(_:"9718")

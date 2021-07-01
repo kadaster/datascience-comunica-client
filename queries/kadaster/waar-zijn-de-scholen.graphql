@@ -1,4 +1,4 @@
-# Waar zijn de scholen
+# Locaties van scholen
 # Datasource: sparql@https://api.labs.kadaster.nl/datasets/kadaster/kg/services/default/sparql
 query {
   id
