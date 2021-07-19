@@ -4,10 +4,15 @@
     "graphql": true
   },
   "branding": {
-    "title": "Query het Kadaster",
+    "title": "Bevraag de Knowledge Graph van het Kadaster",
     "title_href": "https://www.kadaster.nl/",
     "subtitle": "Powered by Comunica",
-    "subtitle_href": "https://comunica.dev/"
+    "subtitle_href": "https://comunica.dev/",
+    "page_title": "Query de Knowledge Graph van het Kadaster"
+  },
+  "map": {
+    "url": "https://geodata.nationaalgeoregister.nl/tiles/service/wmts/brtachtergrondkaart/EPSG:3857/{z}/{x}/{y}.png",
+    "attribution": "Kaartgegevens &copy; <a href=\"https://www.kadaster.nl\">Kadaster</a> | <a href=\"https://www.verbeterdekaart.nl\">Verbeter de kaart</a>"
   },
   "datasources": [
     {
