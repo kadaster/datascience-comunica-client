@@ -11,7 +11,7 @@
     "page_title": "Query de Knowledge Graph van het Kadaster"
   },
   "map": {
-    "url": "https://geodata.nationaalgeoregister.nl/tiles/service/wmts/brtachtergrondkaart/EPSG:3857/{z}/{x}/{y}.png",
+    "url": "https://service.pdok.nl/brt/achtergrondkaart/wmts/v2_0/standaard/EPSG:3857/{z}/{x}/{y}.png",
     "attribution": "Kaartgegevens &copy; <a href=\"https://www.kadaster.nl\">Kadaster</a> | <a href=\"https://www.verbeterdekaart.nl\">Verbeter de kaart</a>"
   },
   "datasources": [
